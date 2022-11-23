@@ -1,48 +1,88 @@
 
-* { margin: 0px, padding: 0px; }
+* { margin: 0; padding: 0; }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:azure;
     width: 100%;
-    height: 700px;
+    height: 1000px;
 }
+
 header {
     position: fixed;
     top: 0;
     z-index: 2;
     width: 100%;
     height: 100px;
-    color: whitesmoke; 
+    color: lightcyan; 
     background-color: lightseagreen;
     text-align: center;
     display: block;
+    padding: 10px 0px 5px 0px;
 }
 
-span {
-    display: inline;
+ul {
+    list-style-type: none;
+    margin: 0;
+    Padding: 0;
+}
+
+li {
+    float: right; 
+    padding-right: 30px;
+}
+
+li a {
+    display: block;
+    color: azure; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: azure;
+}
+
+a:visited {
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+a:active {
+    text-decoration: none;
+    color: darkslategray;
 }
 
 section {
-    padding-top: 100px;
-    width: 100%;
-    height: 400px;
-    text-align: center;
+    width: 75%;
+    height: 500px;
     color: black;
-    position: static;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding-left: 175px;
 }
 
-img{
-    display: inline;
+img {
+    padding-right: 30px;
 }
 
 footer {
-    padding-top: 50px;
+    position:fixed;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
     width: 100%;
-    height: 250px;
+    height: 150px;
     color: black;
     background-color: lightskyblue;
     text-align: center;
-
 }
